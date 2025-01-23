@@ -2,7 +2,6 @@ export type ProductCategory =
   | 'cosmwasm'
   | 'cosmos-sdk'
   | 'frontend'
-  | 'testing';
 
 export type Product = {
   name: string;
@@ -13,10 +12,38 @@ export type Product = {
 
 export const products: Product[] = [
   {
+    name: 'Ignite',
+    description:
+      'Ignite makes developing, growing, and launching blockchain projects faster than ever before.',
+    link: 'https://ignite.com',
+    category: 'cosmos-sdk',
+  },
+  {
+    name: 'Ignite Tutorials',
+    description:
+      'Learn How to Build Cutting-Edge Blockchains.',
+    link: 'https://tutorials.ignite.com',
+    category: 'cosmos-sdk',
+  },
+  {
+    name: 'Cosmos SDK',
+    description:
+      'Get a quick introduction to the Cosmos SDK and its key features, including its modular architecture and developer-friendly tools.',
+    link: 'https://docs.cosmos.network',
+    category: 'cosmos-sdk',
+  },
+  {
     name: 'Cosmos Kit',
     description:
       'A wallet adapter for react with mobile WalletConnect support for the Cosmos ecosystem.',
     link: 'https://cosmology.zone/products/cosmos-kit',
+    category: 'frontend',
+  },
+  {
+    name: 'Ignite Videos',
+    description:
+      'Learn about Ignite development with video tutorials.',
+    link: 'https://youtube.com/@ignitehq',
     category: 'frontend',
   },
   {
@@ -34,32 +61,11 @@ export const products: Product[] = [
     category: 'frontend',
   },
   {
-    name: 'TS Codegen',
-    description:
-      'The quickest and easiest way to convert CosmWasm Contracts into dev-friendly TypeScript classes.',
-    link: 'https://cosmology.zone/products/ts-codegen',
-    category: 'cosmwasm',
-  },
-  {
     name: 'Chain Registry',
     description:
       'Get chain and asset list information from the npm package for the Official Cosmos chain registry.',
     link: 'https://cosmology.zone/products/chain-registry',
     category: 'frontend',
-  },
-  {
-    name: 'OsmoJS',
-    description:
-      'OsmosJS makes it easy to compose and broadcast Osmosis and Cosmos messages.',
-    link: 'https://cosmology.zone/products/osmojs',
-    category: 'frontend',
-  },
-  {
-    name: 'Starship',
-    description:
-      'Starship makes it easy to build a universal interchain development environment in k8s.',
-    link: 'https://cosmology.zone/products/starship',
-    category: 'testing',
   },
   {
     name: 'Create Cosmos App',
@@ -76,7 +82,7 @@ export const products: Product[] = [
     category: 'cosmwasm',
   },
   {
-    name: 'Videos',
+    name: 'Cosmology Videos',
     description:
       'How-to videos from the official Cosmology website, with learning resources for building in Cosmos.',
     link: 'https://cosmology.zone/learn',

@@ -30,16 +30,6 @@ const navItems: NavItem[] = [
     href: '/governance',
   },
   {
-    icon: 'coinsLine',
-    label: 'Asset List',
-    href: '/asset-list',
-  },
-  {
-    icon: <MdOutlineWaterDrop size="20px" />,
-    label: 'Faucet',
-    href: '/faucet',
-  },
-  {
     icon: <LuFileJson size="20px" />,
     label: 'Contract',
     href: '/contract',

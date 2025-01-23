@@ -91,13 +91,13 @@ export const SidebarContent = ({ onClose }: { onClose: () => void }) => {
           <Text fontSize="12px" fontWeight="500" color="$text">
             Powered by
           </Text>
-          <Image
+          <a href="https://github.com/cosmology-tech"><Image
             src={poweredByLogoSrc}
             alt="cosmology"
             width="0"
             height="0"
             style={{ width: '100px', height: 'auto' }}
-          />
+          /></a>
         </Box>
       </Box>
     </Box>

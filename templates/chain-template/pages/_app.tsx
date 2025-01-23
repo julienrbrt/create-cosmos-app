@@ -47,7 +47,7 @@ function CreateCosmosApp({ Component, pageProps }: AppProps) {
         signerOptions={getSignerOptions()}
         endpointOptions={{
           endpoints: {
-            osmosis: {
+            mychain: {
               rpc: ['http://localhost:26657'],
             },
           },

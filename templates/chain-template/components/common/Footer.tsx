@@ -45,11 +45,11 @@ const TextDivider = () => {
 const socialLinks = [
   {
     icon: <Icon name="github" color="$blackAlpha600" />,
-    href: 'https://github.com/cosmology-tech',
+    href: 'https://github.com/ignite',
   },
   {
     icon: <Icon name="discord" color="$blackAlpha600" />,
-    href: 'https://discord.com/invite/xh3ZwHj2qQ',
+    href: 'https://discord.com/invite/ignite',
   },
   {
     icon: (
@@ -57,11 +57,11 @@ const socialLinks = [
         <FaXTwitter size="16px" />
       </Box>
     ),
-    href: 'https://x.com/cosmology_tech',
+    href: 'https://x.com/ignite',
   },
   {
     icon: <Icon name="youtube" color="$blackAlpha600" />,
-    href: 'https://www.youtube.com/channel/UCA9jzRlnUJRxec8S5Lt7Vcw',
+    href: 'https://www.youtube.com/@ignitehq',
   },
 ];
 
